@@ -16,6 +16,7 @@ a:visited, a:link, a:focus, a:hover, a:active {
 header {
     background: rgba(0, 0, 0, 0.5);
 }
+
 header .logotipo {
     width: 50%;
 }
@@ -54,7 +55,9 @@ header .redes  ul li a i{
 
 /* TABLET VERTICAL 768 PX */
 @media(max-width:991px) and (min-width: 768px){
-    
+    header .logotipo {
+        width: 53%;
+    }
 }
 
 /* MOVIL HORIZONTAL 576 PX */
@@ -64,5 +67,7 @@ header .redes  ul li a i{
 
 /* MOVIL VERTICAL 320 PX */
 @media(max-width:575px){
-    
+    header .logotipo {
+        width: 95%;
+    }
 }
