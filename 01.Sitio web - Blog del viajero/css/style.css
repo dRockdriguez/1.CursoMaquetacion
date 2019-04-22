@@ -1,0 +1,38 @@
+/* ESCRTORIO XL 1366 PX */
+*{
+    font-family: 'Open-sans', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+a:visited, a:link, a:focus, a:hover, a:active {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER */
+header .logotipo{
+    width: 45%;
+}
+
+/* TABLET HORIZONTAL LG 1024 PX */
+@media(max-width:1199px) and (min-width: 992px){
+
+}
+
+/* TABLET VERTICAL 768 PX */
+@media(max-width:991px) and (min-width: 768px){
+    
+}
+
+/* MOVIL HORIZONTAL 576 PX */
+@media(max-width:767px) and (min-width: 576px){
+    
+}
+
+/* MOVIL VERTICAL 320 PX */
+@media(max-width:575px){
+    
+}
