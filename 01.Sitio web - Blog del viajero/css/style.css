@@ -13,8 +13,11 @@ a:visited, a:link, a:focus, a:hover, a:active {
 }
 
 /* HEADER */
+header {
+    background: rgba(0, 0, 0, 0.5);
+}
 header .logotipo {
-    width: 45%;
+    width: 50%;
 }
 
 header .redes  ul li a i{
@@ -38,6 +41,10 @@ header .redes  ul li a i{
 }
 .redes ul li a i.fa-snapchat-ghost {
     background: #FF9052;
+}
+
+.fa-bars {
+    font-size: 35px;
 }
 
 /* TABLET HORIZONTAL LG 1024 PX */
