@@ -13,8 +13,31 @@ a:visited, a:link, a:focus, a:hover, a:active {
 }
 
 /* HEADER */
-header .logotipo{
+header .logotipo {
     width: 45%;
+}
+
+header .redes  ul li a i{
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.redes ul li a i.fa-facebook-f {
+    background: #1475E0;
+}
+.redes ul li a i.fa-instagram {
+    background: #B18768;
+}
+.redes ul li a i.fa-twitter {
+    background: #00A6FF;
+}
+.redes ul li a i.fa-youtube {
+    background: #F95F62;
+}
+.redes ul li a i.fa-snapchat-ghost {
+    background: #FF9052;
 }
 
 /* TABLET HORIZONTAL LG 1024 PX */
