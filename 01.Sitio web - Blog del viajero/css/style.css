@@ -60,7 +60,8 @@ header .logotipo {
     position: fixed;
     bottom: -10px;
     left: 50%;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
+    z-index: 10;
 }
 
 .fade-slider {
@@ -109,6 +110,59 @@ header .logotipo {
     border-bottom: 0px solid white;
     border-left: 8px solid white;
     border-right: 8px solid white;
+    position: relative;
+}
+
+.grid .columna1 {
+    width: 40%;
+}
+.grid .foto1 {
+    height: 400px;
+    background: url(../img/suramerica.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.grid .foto2 {
+    height: 300px;
+    background: url(../img/africa.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.grid .foto3 {
+    height: 300px;
+    background: url(../img/europa.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.grid .foto4 {
+    height: 300px;
+    background: url(../img/centroamerica.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.grid .foto5 {
+    height: 400px;
+    background: url(../img/norteamerica.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+.grid .foto6 {
+    height: 200px;
+    background: url(../img/asia.jpg);
+    background-size: cover;
+    background-position: left;
+}
+.grid figure p {
+    position: absolute;
+    bottom: -16px;
+    left: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    font-weight: 100;
+    font-size: 20px;
 }
 
 /* TABLET HORIZONTAL LG 1024 PX */
@@ -121,6 +175,25 @@ header .logotipo {
     header .logotipo {
         width: 53%;
     }
+
+    .grid figure p {
+        font-size: 18px;
+    }
+    .grid .foto1 {
+        height: 300px;
+    }
+    .grid .foto2 {
+        height: 200px;
+    }
+    .grid .foto3 {
+        height: 200px;
+    }
+    .grid .foto4 {
+        height: 200px;
+    }
+    .grid .foto5 {
+        height: 300px;
+    }
 }
 
 /* MOVIL HORIZONTAL 576 PX */
@@ -131,6 +204,27 @@ header .logotipo {
     .menu {
         font-size: 20px;
         line-height: 40px;
+    }
+    .grid .columna1 {
+        width: 50%;
+    }
+    .grid .foto1 {
+        height: 200px;
+    }
+    .grid .foto2 {
+        height: 200px;
+    }
+    .grid .foto3 {
+        height: 200px;
+    }
+    .grid .foto4 {
+        height: 200px;
+    }
+    .grid .foto5 {
+        height: 200px;
+    }
+    .grid figure p {
+        font-size: 14px;
     }
 }
 
@@ -147,6 +241,31 @@ header .logotipo {
         font-size: 20px;
         line-height: 40px;
     }
+    .grid .columna1 {
+        width: 50%;
+    }
+    .grid .foto1 {
+        height: 150px;
+    }
+    .grid .foto2 {
+        height: 150px;
+    }
+    .grid .foto3 {
+        height: 150px;
+    }
+    .grid .foto4 {
+        height: 150px;
+    }
+    .grid .foto5 {
+        height: 150px;
+    }
+    .grid .foto6 {
+        height: 150px;
+    }
+    .grid figure p {
+        font-size: 14px;
+    }
+   
 }
 
 @media(max-width:423px){
@@ -164,5 +283,29 @@ header .logotipo {
     .menu {
         font-size: 20px;
         line-height: 40px;
+    }
+    .grid .columna1 {
+        width: 50%;
+    }
+    .grid .foto1 {
+        height: 150px;
+    }
+    .grid .foto2 {
+        height: 150px;
+    }
+    .grid .foto3 {
+        height: 150px;
+    }
+    .grid .foto4 {
+        height: 150px;
+    }
+    .grid .foto5 {
+        height: 150px;
+    }
+    .grid .foto6 {
+        height: 150px;
+    }
+    .grid figure p {
+        font-size: 16px;
     }
 }
