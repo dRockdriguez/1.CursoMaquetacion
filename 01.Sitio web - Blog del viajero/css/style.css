@@ -52,6 +52,10 @@ header .logotipo {
     font-size: 35px;
 }
 
+.fa-bars, .fa-search {
+    color: white;
+}
+
 .redesMovil {
     position: fixed;
     bottom: -10px;
@@ -59,6 +63,16 @@ header .logotipo {
     transform: translate(-50%, 0)
 }
 
+.fade-slider {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.bannerEstatico {
+    background: rgba(0, 0, 0, 0);
+}
 /* TABLET HORIZONTAL LG 1024 PX */
 @media(max-width:1199px) and (min-width: 992px){
 
