@@ -26,3 +26,12 @@ $(window).scroll(() => {
         $(".fa-search, .fa-bars").css({"color": "white"});
     }
 });
+
+/* Menu */
+$(".fa-bars").click(() => {
+    $(".menu").fadeIn("fast");
+});
+
+$(".btnClose").click(() => {
+    $(".menu").fadeOut("fast");
+});

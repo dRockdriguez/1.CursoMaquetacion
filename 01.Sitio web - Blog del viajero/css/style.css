@@ -1,6 +1,6 @@
 /* ESCRTORIO XL 1366 PX */
 *{
-    font-family: 'Open-sans', sans-serif;
+    /* font-family: 'Open-Sans', sans-serif; */
 }
 
 ul, ol {
@@ -17,7 +17,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 10;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -73,6 +73,36 @@ header .logotipo {
 .bannerEstatico {
     background: rgba(0, 0, 0, 0);
 }
+
+/* Menu */
+.menu {
+    background: rgba(0, 0, 0, .8);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    overflow-x: hidden;
+    font-weight: 300;
+    display: none;
+    font-size: 35px;
+    line-height: 70px;
+   
+}
+
+.btnClose {
+    position: absolute;
+    top: 40px;
+    right: 25%;
+    color: white;
+}
+
+.menu .nav {
+    margin-top: 100px;
+}
+
+
 /* TABLET HORIZONTAL LG 1024 PX */
 @media(max-width:1199px) and (min-width: 992px){
 
@@ -90,6 +120,10 @@ header .logotipo {
     .fade-slider {
         height: 65px;
     }
+    .menu {
+        font-size: 20px;
+        line-height: 40px;
+    }
 }
 
 /* MOVIL VERTICAL 320 PX */
@@ -100,6 +134,10 @@ header .logotipo {
 
     .fade-slider {
         height: 80px;
+    }
+    .menu {
+        font-size: 20px;
+        line-height: 40px;
     }
 }
 
@@ -114,5 +152,9 @@ header .logotipo {
 
     .hamburger{
         margin-top: -5px
+    }
+    .menu {
+        font-size: 20px;
+        line-height: 40px;
     }
 }
