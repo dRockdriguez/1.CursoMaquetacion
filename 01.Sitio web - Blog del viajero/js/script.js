@@ -35,3 +35,11 @@ $(".fa-bars").click(() => {
 $(".btnClose").click(() => {
     $(".menu").fadeOut("fast");
 });
+
+/* Grid */
+$(".grid figure").mouseover(function(){
+    $(this).css({"background-position": "right bottom"})
+});
+$(".grid figure").mouseout(function(){
+    $(this).css({"background-position": "left top"})
+});

@@ -111,8 +111,13 @@ header .logotipo {
     border-left: 8px solid white;
     border-right: 8px solid white;
     position: relative;
+    cursor: pointer;
+    transition: 1s all;
 }
 
+.grid figure p:hover{
+    background: rgba(255, 57, 190, .7);
+}
 .grid .columna1 {
     width: 40%;
 }
