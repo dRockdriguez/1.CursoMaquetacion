@@ -79,12 +79,26 @@ header .logotipo {
 }
 
 /* MOVIL VERTICAL 320 PX */
-@media(max-width:575px){
+@media(max-width:575px) and (min-width: 424px) {
     header .logotipo {
-        width: 90%;
+        width: 300px;
     }
 
     .fade-slider {
-        height: 56px;
+        height: 80px;
+    }
+}
+
+@media(max-width:423px){
+    header .logotipo {
+        width: 200px;
+    }
+
+    .fade-slider {
+        height: 58px;
+    }
+
+    .hamburger{
+        margin-top: -5px
     }
 }
