@@ -21,7 +21,7 @@ header .logotipo {
     width: 50%;
 }
 
-header .redes  ul li a i{
+.redes  ul li a i{
     width: 35px;
     line-height: 35px;
     text-align: center;
@@ -46,6 +46,13 @@ header .redes  ul li a i{
 
 .fa-bars {
     font-size: 35px;
+}
+
+.redesMovil {
+    position: fixed;
+    bottom: -10px;
+    left: 50%;
+    transform: translate(-50%, 0)
 }
 
 /* TABLET HORIZONTAL LG 1024 PX */
