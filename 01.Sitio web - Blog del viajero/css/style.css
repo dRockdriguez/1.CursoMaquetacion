@@ -170,6 +170,26 @@ header .logotipo {
     font-size: 20px;
 }
 
+/* Contenido */
+.contenidoInicio {
+    transform: translate(0%, -2%);
+}
+.introArticulo {
+    position: relative;
+}
+.fecha {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    padding: 15px;
+    color: #aaa;
+    font-size: 14px;
+    background: url(../img/globo.jpg);
+    background-size: cover;
+    background-position: center top;
+    height: 50px;
+}
+
 /* TABLET HORIZONTAL LG 1024 PX */
 @media(max-width:1199px) and (min-width: 992px){
 
@@ -198,6 +218,10 @@ header .logotipo {
     }
     .grid .foto5 {
         height: 300px;
+    }
+
+    .fecha {
+        top: -496px;
     }
 }
 
@@ -230,6 +254,9 @@ header .logotipo {
     }
     .grid figure p {
         font-size: 14px;
+    }
+    .fecha {
+        top: -385px;
     }
 }
 
@@ -269,6 +296,9 @@ header .logotipo {
     }
     .grid figure p {
         font-size: 14px;
+    }
+    .fecha {
+        top: -232px;
     }
    
 }
@@ -312,5 +342,8 @@ header .logotipo {
     }
     .grid figure p {
         font-size: 16px;
+    }
+    .fecha {
+        top: -232px;
     }
 }
